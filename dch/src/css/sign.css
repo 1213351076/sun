@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html, body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px "宋体", "Arial Narrow";
+	background: #fff;
+}
+
+a {
+	color: #172c45;
+	text-decoration: none;
+}
+
+
+em {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+i {
+	font-style: normal;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+a, input {
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.sign_center{
+	width: 940px;
+	height: 27px;
+	margin: 0 auto;
+	background: #54aea5;
+	line-height: 26px;
+	padding-left: 10px;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+.sign_box{
+	width: 931px;
+	margin: 0 auto;
+	height: 628px;
+}
+.sign_box>div{
+	width: 452px;
+	height: 624px;
+	border-radius: 10px;
+	border:2px solid black ;
+}
+.sign_left{
+	float: left;
+}
+.sign_rigth{
+	float: right;
+}
+.sign_left_div{
+	width: 424px;
+	height: 54px;
+	border-bottom: 2px solid #54aea5;	
+	margin: 0 auto;
+}
+.sign_left_div p{
+	font-size: 22px;
+	padding-top: 20px;
+}
+
+.sign_text{
+	width:396px;
+	height: 110px;
+	margin: 15px auto;
+	border: 2px solid #cccccc;
+}
+.sign_text>div{
+	width: 400px;
+	height: 50%;	
+}
+.sign_text>div:nth-of-type(1){
+	border-bottom: 1px solid #cccccc;
+}
+.sign_text>div input{
+	float: right;
+	width: 220px;
+	height: 20px;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.sign_text>div span{
+	display: inline-block;
+	width: 124px;
+	height: 100%;
+	background: #f0f0f0;
+	line-height: 62px;
+	text-align: center;
+	color: #545454;
+	font-size: 18px;
+}
+.sign_left_jizhu{
+	width: 336px;
+	height: 50px;
+	padding-left: 84px;
+	line-height: 50px;
+	background: #d7f1ee;
+	margin: 0 auto;	
+	border-radius: 10px;
+}
+.sign_left_jizhu span{
+	cursor: pointer;
+	text-decoration: underline;
+	margin-left: 130px;
+}
+#sign_left_btn{
+	width: 332px;
+	height: 46px;
+	background: #54aea5;
+	color: #fff;
+	margin-left: 59px;
+	margin-top: 15px;
+	border-radius: 8px;
+	outline: none;
+	border: 2px solid #ccc;
+}
+#sign_left_btn1{
+	width: 332px;
+	height: 46px;
+	background: #54aea5;
+	color: #fff;
+	margin-left: 59px;
+	margin-top: 15px;
+	border-radius: 8px;
+	outline: none;
+	border: 2px solid #ccc;
+}
+.sign_left_hezuo{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+}
+.sign_left_hezuo>span:nth-of-type(1){
+	margin-left: 110px;	
+}
+.sign_left_hezuo>span:nth-of-type(2){
+	margin-left: 5px 0;	
+	text-decoration: underline;
+}
+.sign_left_hezuo>img:nth-of-type(1){
+	margin-left: 30px;
+	margin-top: 3px;			
+}
+.sign_left_hezuo>img:nth-of-type(2){
+	margin-top: 5px;	
+}
+.sign_left_wanshan{
+	width: 100%;
+	height: 22px;
+}
+.sign_wanshan img{
+	margin-left: 15px;
+}
+.sign_text2{
+	width:396px;
+	height: 340px;
+	margin: 15px auto;
+	border: 2px solid #cccccc;
+}
+.sign_text2>div{
+	width: 400px;
+	height: 56px;	
+}
+.sign_text2>div{
+	border-bottom: 1px solid #cccccc;
+}
+.sign_text2>div:nth-of-type(6){
+	border-bottom: none;
+}
+.sign_text2>div input{
+	
+	width: 160px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.sign_text2>div>span{
+	display: inline-block;
+	width: 124px;
+	height: 100%;
+	background: #f0f0f0;
+	line-height: 56px;
+	text-align: center;
+	color: #545454;
+	font-size: 18px;
+}
+#spanPass2,#spanUser{	
+	display: inline;
+	font-size: 14px;
+}
+.sign_text2>.sign_text_text2 input,.sign_text2>.sign_text_text3 input{
+	float: left;
+	width: 120px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.sign_text2>.sign_text_text2 span,.sign_text2>.sign_text_text3 span{
+	float: left;
+	
+}
+#yanzheng{
+	cursor: pointer;
+	float: left;
+	width: 80px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left:10px ;
+	line-height: 30px;
+	text-align: center;
+}
+.sign_text_text3{
+	line-height: 64px;
+}
+.sign_text_text3 a{
+	background: #f0f0f0;
+}
+.sign_left_jizhu2{
+	width: 400px;
+	height: 50px;
+	padding-left: 10px;
+	line-height: 50px;
+	background: #d7f1ee;
+	margin: 0 auto;	
+	border-radius: 10px;
+	font-size: 14px;
+}
+#sign_left_btn2{
+	width: 332px;
+	height: 46px;
+	background: #54aea5;
+	color: #fff;
+	margin-left: 59px;
+	margin-top: 15px;
+	border-radius: 8px;
+	outline: none;
+	border: 2px solid #ccc;
+}
+.sign_left_wanshan2{
+	margin-top: 37px;
+	width: 100%;
+	height: 22px;
+}
+
+.sign_wanshan2 img:nth-of-type(1){
+	
+	margin-left: 15px;
+}
+.sign_wanshan2 img:nth-of-type(2){
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.sign_center1{
+	
+	width: 940px;
+	height: 27px;
+	margin: 0 auto;
+	background: #46c3b3;
+	line-height: 26px;
+	padding-left: 10px;
+	color: #ffffff;
+	margin-bottom: 8px;
+	margin-top: 20px;
+}
+.sign_logo{
+	width: 940px;
+	height: 147px;
+	margin: 0 auto;
+		
+}
+.right_logo{
+	width: 940px;
+	height: 378px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.green1{
+	color: green !important;
+}
+.red1{
+	color: red !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

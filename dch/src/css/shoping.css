@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html, body,table,tr,td, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px , "Arial Narrow";
+	font-family: "宋体";
+	background: #fff;
+}
+
+a {
+	color: #172c45;
+	text-decoration: none;
+}
+
+
+em {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+i {
+	font-style: normal;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+a, input {
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.noborder {
+	border: 0;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clear {
+	zoom: 1;
+}
+.cx{
+	width: 100%;
+	height: 200px;
+	background: #F5F5F5;
+	position: relative;
+}
+.cx_in{
+	width: 1170px;
+	height: 200px;
+	margin: 0 auto;
+}
+.cx_left{
+	width: 790px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-size: 50px;
+	color: #004098;
+		
+}
+.cx_right{
+	width: 380px;
+	height: 200px;
+	float: right;
+	
+}
+.cx_right>ul>li{
+	margin-left: 35px;
+	margin-top: 67px;
+	float: left;
+	line-height: 20px;
+}
+.cx_right>ul>li:nth-of-type(3),.cx_right>ul>li:nth-of-type(5){
+	color: darkgray;
+}	
+.che{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	background: white;
+	top: 80px;
+	left: 95px;
+	box-shadow: 0 0 5px silver;
+}	
+.che img{
+	margin-left: 62PX;
+	margin-top: 62PX;
+}	
+.mate{
+	width: 1170px;
+	height: 170px;
+	
+	
+}
+.mate>ol>li{
+	list-style-type: decimal;
+	margin-left: 413px;
+	margin-top: 20px;
+	
+}	
+#shop_kong{
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.kong_img{
+	border-bottom: 2px solid #CCCCCC;
+	width: 590px;
+	height: 200px;
+	margin-left: 287px;
+	text-align: center;
+}
+#shop_kong p{
+	padding-top: 31px;
+	font-size: 48px;
+}	
+#shop_shop{
+	width: 1170px;
+	margin: 0 auto;
+}	
+thead{
+	display: block;
+	width: 1170px;
+	height:50px;
+	background: #757575;
+}	
+thead>tr>td:nth-of-type(1){
+	padding-left: 200px;
+	line-height: 50px;
+}	
+thead>tr>td:nth-of-type(2),thead>tr>td:nth-of-type(3){
+	padding-left: 244px;
+	line-height: 50px;
+}	
+
+
+#tbody1{
+	width: 1170px;
+}
+#tbody1>div{
+	width: 100%;
+	height: 180px;
+	border-bottom: 1px solid #949494;
+}	
+#tbody1>div>div{
+	line-height: 180px;
+	float: left;
+}
+#tbody1>div>div:nth-of-type(1){
+	width: 167px;
+	height: 180px;
+}
+#tbody1>div>div:nth-of-type(1) img{
+	margin-top:35px;
+	width: 167px;
+	height: 110px;
+}	
+#tbody1>div>div:nth-of-type(2){
+	width: 312px;
+	height: 180px;
+}	
+#tbody1>div>div:nth-of-type(3){
+	width: 250px;
+	height: 180px;
+	color: red;
+	font-size: 26px;
+	
+}	
+#tbody1>div>div:nth-of-type(4){
+	width: 268px;
+	height: 180px;
+}	
+.inp_class1{
+	width: 40px;
+	height: 18px;
+}
+#tbody1>div>div:nth-of-type(4) span{
+	cursor:pointer ;
+	font-size:22px ;
+	margin:0 10px;
+}
+#tbody1>div>div:nth-of-type(5){
+	position: relative;
+	width: 173px;
+	height: 180px;
+}	
+.imgin0	{
+	margin-top: 81px;
+}
+.imgin1{
+	position: absolute;
+	top: 130px;
+	left: 10px;
+}
+.btnn1{
+	position: absolute;
+	top: 130px;
+	left: 50px;
+	outline: none;
+	border: none;
+}	
+#fan1{
+	width: 1170px;
+	height: 50px;
+	margin: 0 auto;
+}
+#on1{
+	margin-top: 15px;
+	margin-left: 450px;
+}
+#fan1 input{
+	width: 50px;
+	height: 26px;
+	outline: none;
+	border: none;
+	box-shadow: 0 0 5px slategray;
+}
+
+#zongjia{
+	width: 1170px;
+	height: 100px;
+	margin: 0 auto;
+	background: #949494;
+	line-height: 100px;
+}
+#zongjia>span:nth-of-type(1){
+	margin-left: 850px;
+}
+#gjg{
+	font-size: 24px;
+	color: red;
+}
+#zjg{
+	font-size: 28px;
+	color: red;
+}
+.sssss{
+	font-size: 28px;
+	color: red;
+}
+.fooan{
+	width: 1170px;
+	height: 160px;
+	margin: 0 auto;
+}
+.fooan_left{
+	width: 500px;
+	height: 160px;
+	float: left;
+	line-height: 160px;
+}
+.fooan_left span{
+	margin-right: 15px;
+}
+.fooan_left input{
+	outline: none;
+	border: none;
+	width: 210px;
+	font-size: 16px;
+	height: 27px;
+	padding-left: 15px;
+	box-shadow: 0 0 5px slategray;
+}
+.fooan_right{
+	width: 670px;
+	height: 160px;
+	float: right;
+}
+.fooan_right input{
+	font-size: 20px;
+	outline: none;
+	border: none;
+	width: 130px;
+	height: 40px;
+
+	margin-top: 60px;
+}
+#jizu{
+	color: #004098;
+	margin-left: 382px;
+	border: 1px solid #004098;
+}
+#jiezhang{
+	margin-left: 19px;
+	background: #004098;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
